@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Lexend+Deca & family= PT+Sans+Narrow & família= Filósofo:ital@1 &family= Red+Hat+Display:wght@ 400;500;700 & family= Rubik+Wet+Paint & display=swap');
+body {
+    
+    font-family: 'Filósofo', sans-serif;
+    margin: 0;
+}
+
+.main-login {
+    background-image: url(./img/fundo.webp);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+}
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-login > h1  {
+    color: rgb(80, 151, 86);
+    font-weight: 800;
+    
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgba(7, 7, 7, 0.685);
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px #6d6d68;
+    
+}
+
+.card-login > h1 {
+
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.card-login > h2 {
+
+    margin-top: -150px;
+    color: #fff;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #525251;
+    color:#fff;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: aliceblue;
+    margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder {
+
+    color:rgb(235, 229, 229);
+
+}
+
+.btn-login {
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    color: green;
+}
+
+.btn-Criar{
+ 
+    width: 40%;
+    padding: 10px 0px;
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -12px #5f09e9;
+}
+
+.btn-Criar:hover {
+    color: red;
+}
